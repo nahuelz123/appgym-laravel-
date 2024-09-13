@@ -14,12 +14,12 @@ class UsersTableSeeder extends Seeder
      */
     public function run(): void
     {
-      /*    User::create([
+        User::create([
             'name' => 'Admin User',
             'email' => 'admin@example.com',
             'password' => Hash::make('12345678'), // Cambia la contraseña según tus necesidades
             'role' => 'admin', // Asegúrate de que este campo esté definido en tu tabla
-        ]); 
+        ]);
         User::create([
             'name' => 'Lucas',
             'email' => 'lucas@example.com',
@@ -31,19 +31,19 @@ class UsersTableSeeder extends Seeder
             'email' => 'nahuelarielz1234@outlook.com',
             'password' => Hash::make('12345678'), // Cambia la contraseña según tus necesidades
             'role' => 'client', // Asegúrate de que este campo esté definido en tu tabla
-        ]); */
-      /*   User::create([
+        ]);
+        User::create([
             'name' => 'ariel ',
             'email' => 'ariel1234@outlook.com',
             'password' => Hash::make('12345678'), // Cambia la contraseña según tus necesidades
             'role' => 'client', // Asegúrate de que este campo esté definido en tu tabla
-        ]); */
-    /*     User::create([
+        ]);
+        User::create([
             'name' => 'ariel2 ',
             'email' => 'arielz@outlook.com',
             'password' => Hash::make('12345678'), // Cambia la contraseña según tus necesidades
             'role' => 'client', // Asegúrate de que este campo esté definido en tu tabla
-        ]); */
+        ]);
         User::create([
             'name' => 'lautaro ',
             'email' => 'lautaro@outlook.com',
